@@ -1,0 +1,685 @@
+*
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
+/* Start Section Navbar */
+.navbar .navbar-toggler        
+{
+    border-color: gray !important;
+    border-radius: 0px;
+}
+.navbar .navbar-toggler:active ,.navbar .navbar-toggler:hover
+{
+    border-color: #f37f29 !important;
+    outline:0px;
+}
+
+.navbar .navbar-brand
+{
+    font-size:50px;
+    font-weight:bold;
+    margin-left:10px;
+}
+.navbar .navbar-brand span
+{
+  font-weight:300;
+    color:#f37f29;
+}
+.navbar .navbar-nav .nav-item .nav-link
+{
+    font-size:16px;
+    font-weight:500;
+    margin-right:30px;
+    color:white;
+    padding-right: 0rem;
+    padding-left: 0rem;
+    border-bottom: 1px solid transparent;
+}
+.navbar .navbar-nav .nav-item .nav-link.active ,.navbar .navbar-nav .nav-item .nav-link:hover
+{
+    color:#f37f29;
+    border-bottom: 1px solid #f37f29;
+}
+
+/* End Section Navbar */
+
+/* Start Section Header */
+.head
+{
+    background: url("../img/architecture-black-and-white-boardwalk-262367.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100vh;
+    position:relative;
+}
+.head .overlay
+{
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    background-color:rgba(0,0,0,.3);
+position:absolute;
+}
+
+.head .firsthead ,.head .secondhead
+{
+    margin-top:15vh;
+}
+.head .firsthead h1
+{
+    font-weight:bold;
+    font-size:80px;
+}
+.head .firsthead h1 span
+{
+    color:#f37f29;
+    font-weight:300;
+}
+
+.head .firsthead h3
+{
+    font-size: 33px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.head .firsthead h3:after
+{
+    content: "";
+    display: block;
+    height:3px;
+       width:80px;
+    background-color:white;
+    margin:30px 0px;
+}
+
+
+.head .firsthead p
+{
+    color:#f0f0f0;
+    margin-bottom:40px;
+}
+
+
+/* Sweep To Right */
+.head .firsthead .hvr-sweep-to-right:before {
+  background: white;
+}
+
+.head .firsthead .bb
+{
+    padding: .4rem 1.4rem;
+    font-size: 1rem;
+    border:2px solid white;
+    color: white;
+    background-color:transparent;
+    text-transform: capitalize;
+    border-radius: 0rem;
+    font-weight: bold;
+}
+
+.head .firsthead .bb:hover ,.head .firsthead .bb:active
+{
+    border:2px solid white;
+    color:black;
+}
+.head .secondhead .card
+{
+    width:370px;
+    border-radius:0px;
+    margin-left:50px;
+    border:0px;
+}
+.head .secondhead .card .card-header
+{
+    background-color:lightgray;
+    text-transform: capitalize;
+    font-weight:600;
+    color:black;
+    font-size:22px;
+    padding: .90rem 1.25rem;
+}
+
+.head .secondhead .card .card-header span
+{
+    color:#f37f29;
+}
+.head .secondhead .card .card-footer
+{
+    padding: .90rem 1.25rem;
+         background-color:#f37f29;
+}
+.head .secondhead .card .card-footer a
+{
+    text-transform: capitalize;
+     font-size:17px;
+    font-weight:500;
+      color:white !important;
+    transition:all .5s ease-in-out;
+}
+.head .secondhead .card .card-footer a:hover
+{
+    text-decoration: none;
+    color:black !important;
+}
+
+
+.head .secondhead .card .card-body .form-control {
+    font-weight: 500;
+    color:black;
+    border: 0px;
+    border-bottom: 1px solid gray;
+    outline: 0px;
+    border-radius: 0rem;
+}
+.head .secondhead .card .card-body .form-control:focus
+{
+    outline: 0px;
+    border-top:0px;
+}
+
+.head .secondhead .card .card-body .form-text
+{
+    margin-right:40px;
+}
+/* End Section Header */
+
+/* Start Section Social */
+.social
+{
+    margin-top:30px;
+}
+.social .firstsocial h4
+{
+    text-transform: capitalize;
+    font-weight:600;
+} 
+.social .firstsocial p
+{
+   width: 100%
+}
+
+.social .secondsocial 
+{
+    margin-top: 20px;
+}
+.social .secondsocial span i
+{
+    margin-left:40px;
+    font-size: 40px;
+    color:#cac3c3;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.social .secondsocial span .fa-facebook-f:hover
+{
+    color:#3b5998;
+}
+.social .secondsocial span .fa-instagram:hover
+{
+    color:#e1306c;
+}
+.social .secondsocial span .fa-twitter:hover
+{
+    color:#1da1f2;
+}
+.social .secondsocial span .fa-google:hover
+{
+    color:#dd4b39;
+}
+.social .secondsocial span .fa-linkedin-in:hover
+{
+    color:#8d6cab;
+}
+.social .secondsocial span .fa-youtube:hover
+{
+    color:#ff0000;
+}
+.social .secondsocial span .fa-adobe:hover
+{
+    color:#ffdd00;
+}
+.social hr
+{
+    border: 1px solid lightgray;
+    margin:0px;
+}
+
+
+/* End Section Social */
+
+
+/* Start Section Tabs */
+
+.tabs
+{
+    background-color:#F5F5F5;
+    padding:90px 0px;
+}
+.tabs h5:first-of-type:after
+{
+    content: "";
+    display: block;
+    height:2px;
+       width:60px;
+    background-color:#f37f29;
+    margin:25px 0px;
+}
+.tabs .firsttabs .list-group .list-group-item:first-child ,.tabs .firsttabs .list-group .list-group-item:last-child {
+    border-top:0rem;
+    border-bottom: 0px;
+}
+
+.tabs .firsttabs .list-group  .list-group-item.active ,.tabs .firsttabs .list-group .list-group-item:hover  {
+    color: #fff;
+    background-color: #f37f29;
+    border-color: #f37f29;
+}
+.tabs .firsttabs .list-group .list-group-item
+{
+    padding: 2.7rem .4rem;
+    width:105px;
+    margin-top: 2px;
+    text-align: center;
+    font-weight:700;
+    background-color: #000;
+    color:#fff;
+    border: none;
+    border-radius:0px;
+    transition:all .5s ease-in-out;
+}
+
+.tabs .firsttabs .firsttab button{
+    margin:20px auto 30px;
+}
+
+/*#f37f29*/
+/* End Section Tabs */
+
+/* Start Section List */
+.list
+{
+    padding:80px 0;
+}
+.list p
+{
+    line-height: 23px;
+    font-size: 15px;
+}
+.list h5:after
+{
+    content: "";
+    display: block;
+    height:2px;
+       width:60px;
+    background-color:#f37f29;
+    margin:25px 0px;
+}
+.list h6
+{
+    font-weight: 600
+}
+.list i
+{
+    width:40px;
+    cursor: pointer;
+    height:40px;
+    line-height:35px;
+    text-align: center;
+    color:#f37f29;
+    background-color: white;
+    border-radius:50%;
+    border:2px solid #f37f29;
+    margin-top:5px;
+    margin-right:30px;
+    transition:all .7s ease-in-out;
+}
+.list i:hover
+{
+    color:white;
+    background-color:black;
+    border:1px solid black;
+}
+/* End Section List */
+
+
+
+
+/* Start Section List2 */
+.list2
+{
+   
+    background-color:#F5F5F5;
+    padding:90px 0px;
+}
+.list2 h5:after
+{
+    content: "";
+    display: block;
+    height:2px;
+       width:60px;
+    background-color:#f37f29;
+    margin:25px 0px;
+}
+/* End Section List2 */
+
+/* Start Section Awesome */
+.awesome
+{
+   margin:90px auto;
+}
+
+.awesome p:first-of-type
+{
+    margin-bottom:50px;
+}
+.awesome .awesomediv span i
+{
+    width:70px;
+    height:70px;
+    line-height:69px;
+color:#f37f29;
+    font-size:22px;
+    font-weight:600;
+    border-radius:50%;
+    border:2px solid #f37f29;
+background-color:transparent;
+cursor: pointer;
+transition:all .7s ease-in-out;
+}
+
+.awesome .awesomediv span i:hover
+{
+color:#fff;
+    border:2px solid black;
+background-color:black;
+
+}
+
+.awesome .awesomediv h5
+{
+    margin:20px auto;
+}
+/* End Section Awesome */
+
+/* End Section Price */
+.price
+{
+ background-color:#F5F5F5;
+    padding:90px 0px;
+}
+
+.price .card 
+{
+margin-top:80px;
+    cursor:pointer;
+    transition: all .5s ease-in-out;
+}
+.price .card:hover
+{
+transform: translateY(-20px)
+}
+
+.price .card .card-header
+{
+    background-color:rgba(51, 51, 51, 1);
+    padding: 0px;
+}
+.price .card .card-header h3
+{
+    font-size:22px;
+    padding:20px 0px;
+    padding-bottom:0px;
+}
+.price .card .card-header h3:after
+{
+    content: "";
+  height:1px;
+    margin-top:17px;
+    width:100%;
+        background-color:gray;
+    display: block;
+}
+.price .card .card-header h4
+{
+   font-size:34px;
+    font-weight:bold;
+    margin: 10px auto;
+}
+.price .card .card-header h4 span
+{
+      font-size:75px;
+}
+.price .card .card-header h5
+{
+    color:gray;
+    padding-top: 10px;
+    font-style: italic;
+    font-size:17px;
+}
+.price .card .card-header
+{
+    border-bottom:7px solid #f37f29;
+}
+.price .card .card-body ul li
+{
+    color:gray;
+    padding:10px 0px;
+}
+
+.price .card.ctwo 
+{
+    margin-top: 30px;
+}
+.price .card.ctwo .card-header h5
+{
+margin-bottom: 40px;    
+}
+
+.price .card.ctwo h6
+{
+    margin-bottom: 0px;
+    width:100%;
+    padding:12px;
+    background-color:#f37f29;
+    color:white;
+    font-weight: bold;
+    font-size:15px;
+}
+/*#f37f29*/
+/* End Section Price */ 
+
+
+
+
+/* Start Section Customers */ 
+.Customers
+{
+    padding:80px 0px;
+}
+.Customers .media .media-body h5
+{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.Customers .media .media-body
+{
+    margin-top: 30px;
+}
+.Customers .paa
+{
+    margin-bottom: 80px;
+}
+.Customers .paaa
+{
+    background-color:#F5F5F5;
+    padding:15px 20px;
+    position: relative;
+}
+
+.Customers .paaa:after
+{
+ content: "";
+    width: 0;
+height: 0;  
+    position: absolute;
+    left:7%;
+    bottom: -14px;
+border-style: solid;
+border-width: 30px 20px 0 15px;
+border-color: #F5F5F5 transparent transparent transparent;
+}
+
+.Customers .paaa ,.Customers .media-body h5,.Customers .media-body .pa
+{
+  text-align: left;
+}
+/* End Section Customers */ 
+
+
+/* Start Section Stylish */ 
+.stylish
+{
+    background: url("../img/sty.jpg") no-repeat scroll center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:350px;
+    text-align:center;
+    color:white;
+    position: relative;
+}
+.stylish .overstyle
+{
+    height:100%;
+        width:100%;
+    top:0;
+    bottom: 0;
+    right:0;
+    left:0;
+    position:absolute;
+    padding: 70px 0px;
+    z-index: 1;
+    background-color: rgba(0,0,0,.5);
+}
+.stylish h2
+{
+    font-weight: 300
+}
+.stylish h5
+{
+    font-weight: 400;
+    font-size:17px;
+    color:lightgray
+}
+.stylish h2:after
+{
+    
+    content: "";
+    display: block;
+    height:2px;
+       width:70px;
+    background-color:#fff;
+    margin:25px auto;
+    text-align: center
+}
+.stylish .hvr-sweep-to-right:before {
+  background: white;
+}
+
+.stylish  .bb
+{
+    padding: .4rem 1.4rem;
+    font-size: 1rem;
+    border:2px solid white;
+    color: white;
+    margin-top: 50px;
+    background-color:transparent;
+    text-transform: capitalize;
+    border-radius: 0rem;
+    font-weight: bold;
+}
+
+.stylish .bb:hover ,.stylish .bb:active
+{
+    border:2px solid white;
+    color:black;
+}
+/*#f37f29*/
+/* End Section Stylish */ 
+
+
+/* Start Section Contact Us */ 
+.contact
+{
+    padding: 80px 0px;
+}
+.contact .btt
+{
+    margin:50px auto;
+}
+.contact h2:after
+{
+       width:70px;
+}
+.contact input[type="text"],.contact input[type="email"] {
+    font-weight: 400;
+    border: 0px;
+    border-bottom: 1px solid lightgray;
+    outline: 0px;
+    width: 450px;
+    color: black;
+    border-radius: 0rem;
+    margin-top:30px;
+}
+.contact input[type="text"]:focus,.contact input[type="email"]:focus
+{
+    outline: 0px;
+    border:none;
+}
+
+/*#f37f29*/
+/* End Section Contact Us */ 
+.footer
+{
+    background-color: black;
+}
+.footer span i
+{
+    font-size: 28px;
+    padding:0px 7px;
+    transition: all .5s ease-in-out;
+    cursor: pointer
+}
+.footer span i:hover
+{
+   color:white;
+}
+
+.footer p a
+{
+      transition: all .5s ease-in-out;
+}
+.footer p a:hover
+{
+   color:white !important;
+    text-decoration: none
+}
+.footer p
+{
+    font-size: 14px;
+    margin-top:10px;
+    font-weight: 600;
+}

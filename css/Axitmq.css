@@ -1,0 +1,268 @@
+/* FrameWork */
+p
+{
+    color:gray;
+}
+ .head2
+{
+    font-weight:400;
+    font-size: 35px;
+}
+.head2:after
+{
+    content: "";
+    display: block;
+    height:2px;
+       width:60px;
+    background-color:#f37f29;
+    margin:25px auto;
+}
+.pa
+{
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.head5
+{
+    font-weight: 600;
+    font-size:22px;
+}
+
+.hvr-sweep-to-right:before {
+  background: black;
+}
+
+.btt
+{
+   padding: .6rem 1.2rem;
+    font-size: 1rem;
+    border:none;
+    background-color:#f37f29;
+    color:white;
+    text-transform: capitalize;
+    border-radius: 0rem;
+    font-weight: 600;
+}
+
+.btt:hover ,.btt:active
+{
+    color:white;
+}
+
+
+
+
+
+
+/* FrameWork */
+
+
+ 
+    
+    
+    
+@media (max-width:992px)
+{
+   .social .secondsocial span i
+{
+    font-size:35px;
+    margin-left:15px;
+}
+    .social hr
+    {
+        margin-top:20px;
+    }
+    .tabs .firsttabs .thtab h5 ,.tabs .firsttabs .secondtab h5  ,.tabs .firsttabs .firsttab h5 
+{
+  font-size:19px;
+}
+.tabs .firsttabs .thtab h5:after ,.tabs .firsttabs .secondtab h5:after ,.tabs .firsttabs .firsttab  h5:after
+    {
+    margin:20px 0px;
+}
+      .tabs .firsttabs .thtab p ,.tabs .firsttabs .secondtab p  ,.tabs .firsttabs .firsttab p 
+{
+  font-size:15px;
+}
+    
+    .Customers .paaa
+    {
+        width: 100%
+    }
+}
+
+
+@media(min-width:768px) and (max-width:991px)
+{
+  .contact textarea
+    {
+        margin-left: 30px;
+    }
+    .contact input[type="text"],.contact input[type="email"] {
+    
+    width: 350px;
+}
+}
+@media(max-width:768px) {
+    .contact input[type="text"],.contact input[type="email"] {
+    
+    width: 100%;
+}
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+  .contact textarea
+    {
+        margin-left: 30px;
+    }
+    .contact input[type="text"],.contact input[type="email"] {
+    
+    width: 350px;
+}
+}
+
+
+@media(min-width:992px) and (max-width:1200px)
+{
+    .social .secondsocial span i
+{
+    font-size:44px;
+    margin-left:30px;
+}
+    
+}
+@media(min-width:992px) and (max-width:1400px)
+{
+    .navbar 
+{
+    height:80px;
+}
+    
+}
+@media (max-width:991px)
+{
+.head .firsthead h3
+{
+    font-size: 30px;
+}
+    .head .secondhead .card
+{
+        margin-left:0px;
+}
+  
+}
+@media (max-width:768px)
+{
+   .head .secondhead .card
+    {
+        display: none;
+    }
+    .head
+    {
+        height: 500px;
+    }
+      .Customers .paaa ,.Customers .media-body .pa
+{
+  text-align: left;
+}
+    .Customers .media .media-body
+{
+    margin-top: 20px;
+}
+    .Customers .divmedia 
+    {
+        margin-top: 50px;
+    }
+     .Customers .paaa:after
+{
+
+    left:5%;
+}
+    
+}
+@media (max-width: 576px)
+{
+    .tabs .firsttabs .list-group
+    {
+        position: relative;
+       margin-top:-50px;
+    }
+    .tabs .firsttabs .list-group  .list-group-item
+    {
+         position: absolute;
+    }
+.tabs .firsttabs .list-group  .list-group-item:last-child
+    {
+       
+        left:47%;
+    }
+    .tabs .firsttabs .list-group  .list-group-item:nth-child(2)
+    {
+        left:23.5%;
+    }
+    .tabs .tab-content
+    {
+        margin-top:90px;
+    }
+    
+    .head .firsthead ,.head .secondhead
+{
+    margin-top:5vh;
+}
+ 
+    
+}
+
+@media(min-width:768px) and (max-width:991px)
+{
+ 
+.price .card .card-header h3
+{
+    font-size:20px;
+    }
+.price .card .card-header h4
+{
+   font-size:30px;
+}
+.price .card .card-header h4 span
+{
+      font-size:65px;
+}
+.price .card .card-header h5
+{
+    font-size:15px;
+}
+    .price .card.ctwo h6
+{
+    padding:10px 0px 8px;
+    font-size:13px;
+}
+    .price .card .card-body ul li
+{
+    padding:10px 0px;
+    font-size:14px;
+}
+     
+}
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
